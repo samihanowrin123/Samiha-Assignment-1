@@ -34,11 +34,14 @@ color: #FFFFFF;
 font-size: 20px;
 }
 .header-part{
-
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     align-items: right ;
     background-image: url(../images/banner/banner1.png);
     background-size: cover;
-    padding-top: 229px;
+    padding-top: 15vh;
     gap: 30px;
 }
 .btn-div{
@@ -46,7 +49,10 @@ font-size: 20px;
     align-items: center;
 }
 .header-body{
-    margin: 0 150px;
+    position: absolute;
+    right: 0;
+    margin-right: 5%;
+    /* margin: auto; */
 }
 /* section part started  */
 
